@@ -1,0 +1,50 @@
+.bg-container {
+  margin: auto;
+  overflow: hidden;
+}
+
+.bg-header {
+  padding: 0 40px;
+  margin: 30px 0 60px;
+}
+.bg-footer {
+  padding: 0 40px;
+  margin: 30px 0 60px;
+}
+
+.bg-content {
+  padding: 30px 40px;
+  position: relative;
+}
+
+.bg-content:before {
+  content: "";
+  display: block;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 110%;
+  left: -5%;
+  height: 150px;
+  z-index: -1;
+  /* background: #6c48f0; */
+  border-radius: 50% / 50%;
+}
+.bg-content-reverse {
+  /* background: #6c48f0; */
+  padding: 30px 40px;
+  position: relative;
+}
+
+.bg-content-reverse::after {
+  content: "";
+  display: block;
+  position: absolute;
+  transform: translateY(50%);
+  bottom: 0;
+  width: 110%;
+  left: -5%;
+  height: 150px;
+  z-index: -1;
+  background: #6c48f0;
+  border-radius: 50% / 50%;
+}

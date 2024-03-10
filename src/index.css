@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.app {
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+.h1 {
+  font-family: Buenos Aires Trial;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+h3,
+.h3 {
+  font-family: Buenos Aires Trial;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h4,
+.h4 {
+  font-family: Buenos Aires Trial;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h5,
+.h5 {
+  font-family: Buenos Aires Trial;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+p {
+  font-family: Buenos Aires Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.subtitle {
+  font-family: Buenos Aires Trial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.caption {
+  font-family: Buenos Aires Trial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 100;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-Thin.ttf") format("truetype");
+  font-display: "block";
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 200;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-Light.ttf") format("truetype");
+  font-display: "block";
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 300;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-Book.ttf") format("truetype");
+  font-display: "block";
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 400;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-Regular.ttf") format("truetype");
+  font-display: "block";
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 500;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-SemiBold.ttftype");
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 600;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-Bold.ttf") format("truetype");
+  font-display: "block";
+}
+@font-face {
+  font-family: "Buenos Aires Trial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("assets/fonts/BuenosAires-Bold.ttf") format("truetype");
+  font-display: "block";
+}
+
+@layer base {
+  html {
+    font-family: "Buenos Aires Trial", system-ui, sans-serif;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    font-display: "block";
+  }
+}
+
+.react-multi-carousel-dot--active {
+  scale: 1.5;
+}
+.react-multi-carousel-dot > button {
+  background-color: black;
+  border: none;
+  height: 6px;
+  width: 6px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
