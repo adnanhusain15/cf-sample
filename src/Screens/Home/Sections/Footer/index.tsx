@@ -26,7 +26,10 @@ const Footer: FC<IFooterProps> = () => {
             className="h-[52px] lg:w-48 w-80 rounded-lg px-4"
             placeholder="Email"
           />
-          <select className="h-[52px] lg:w-48 w-80 rounded-lg px-4" value={""}>
+          <select
+            className="h-[52px] lg:w-48 w-80 rounded-lg px-4"
+            defaultValue={""}
+          >
             <option value={""}>I'm Interested in</option>
             <option value={"one"}>One</option>
             <option value={"two"}>Two</option>

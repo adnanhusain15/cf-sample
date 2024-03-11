@@ -32,8 +32,8 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M20.2857 22.4286V31L24.5714 27.7857L28.8571 31V22.4286M31 10.6429V3.14286C31 1.95939 30.0406 1 28.8571 1H3.14286C1.95939 1 1 1.95939 1 3.14286V28.8571C1 30.0406 1.95939 31 3.14286 31H17.0714M6.35714 9.57143H17.0714M6.35714 16H12.7857M24.5714 24.5714C21.021 24.5714 18.1429 21.6933 18.1429 18.1429C18.1429 14.5925 21.021 11.7143 24.5714 11.7143C28.1218 11.7143 31 14.5925 31 18.1429C31 21.6933 28.1218 24.5714 24.5714 24.5714Z"
               stroke="#226CF5"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
           </svg>
         );
@@ -49,7 +49,7 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M9.57143 21.3571V18.1429M9.57143 18.1429V7.42857C9.57143 6.2451 10.5308 5.28571 11.7143 5.28571C12.8978 5.28571 13.8571 6.2451 13.8571 7.42857V16H21.042C22.9913 16 24.5714 17.5802 24.5714 19.5294V21.3571C24.5714 26.6827 20.2542 31 14.9286 31H13.8571C9.12327 31 5.28571 27.1624 5.28571 22.4286C5.28571 20.0616 7.20449 18.1429 9.57143 18.1429ZM17.0714 11.7143H21.3571C24.3158 11.7143 26.7143 9.31581 26.7143 6.35714C26.7143 3.39847 24.3158 1 21.3571 1H6.35714C3.39847 1 1 3.39847 1 6.35714C1 9.31581 3.39847 11.7143 6.35714 11.7143"
               stroke="#FDAF4D"
-              stroke-width="2"
+              strokeWidth="2"
             />
           </svg>
         );
@@ -64,20 +64,20 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M13.8655 18.1428C16.2328 18.1428 18.154 16.2228 18.154 13.8571C18.154 11.4914 16.2328 9.57139 13.8655 9.57139C11.4983 9.57139 9.57702 11.4914 9.57702 13.8571C9.57702 16.2228 11.4983 18.1428 13.8655 18.1428Z"
               stroke="#FF7361"
-              stroke-width="2"
-              stroke-linecap="square"
+              strokeWidth="2"
+              strokeLinecap="square"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M26.7311 13.8571C26.7311 24.5714 16.0098 31 13.8655 31C11.7213 31 1 24.5714 1 13.8571C1 6.7578 6.76161 1 13.8655 1C20.9694 1 26.7311 6.7578 26.7311 13.8571Z"
               stroke="#FF7361"
-              stroke-width="2"
-              stroke-linecap="square"
+              strokeWidth="2"
+              strokeLinecap="square"
             />
           </svg>
         );
@@ -119,14 +119,14 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M16 20.9375L11.3645 23.5L12.25 18.0725L8.5 14.2291L13.6823 13.4379L16 8.5L18.3177 13.4379L23.5 14.2291L19.75 18.0725L20.6355 23.5L16 20.9375Z"
               stroke="#6C48F0"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
             <path
               d="M1 16C1 24.2843 7.71573 31 16 31C24.2843 31 31 24.2843 31 16C31 7.71573 24.2843 1 16 1C7.71573 1 1 7.71573 1 16Z"
               stroke="#6C48F0"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
             />
           </svg>
         );
@@ -142,8 +142,8 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M16 20.9375L11.3645 23.5L12.25 18.0725L8.5 14.2291L13.6823 13.4379L16 8.5L18.3177 13.4379L23.5 14.2291L19.75 18.0725L20.6355 23.5L16 20.9375Z"
               stroke="#FDAF4D"
-              stroke-width="2"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinejoin="round"
               fill="#FDAF4D"
             />
           </svg>
@@ -160,9 +160,9 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M15 1L8.33333 9L1 0.999999"
               stroke="#0E1B2C"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         );
@@ -178,9 +178,9 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M6.71428 11L0.999993 6.2381L6.71428 1"
               stroke="#FF7361"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         );
@@ -196,9 +196,9 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             <path
               d="M1 1L6.71429 5.7619L1 11"
               stroke="#FF7361"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         );
@@ -212,7 +212,7 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             xmlns="http://www.w3.org/2000/svg"
             {...props}
           >
-            <g clip-path="url(#clip0_1_804)">
+            <g clipPath="url(#clip0_1_804)">
               <path
                 d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
                 fill="white"
@@ -235,14 +235,14 @@ const SvgLib: FC<ISvgLibProps> = ({ type, ...props }) => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M0.0268314 14.2425C0.0232656 14.3373 0.0214669 14.4326 0.0214669 14.5283C0.0214665 18.6548 3.36666 22 7.49316 22C11.6197 22 14.9648 18.6548 14.9648 14.5283C14.9648 10.4018 11.6197 7.05662 7.49316 7.05662C6.73001 7.05662 5.99359 7.17103 5.3001 7.38364C6.81694 4.06868 11.3772 1.11105 13.5806 -0.0015527C2.06863 2.26762 -0.255894 10.445 0.0208356 14.25L0.0268314 14.2425Z"
               fill="#226CF5"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M18.0483 14.2419C18.0448 14.3369 18.043 14.4324 18.043 14.5283C18.043 18.6548 21.3881 22 25.5146 22C29.6411 22 32.9863 18.6548 32.9863 14.5283C32.9863 10.4018 29.6411 7.05662 25.5146 7.05662C24.7513 7.05662 24.0147 7.1711 23.321 7.38382C24.8378 4.06879 29.3981 1.11107 31.6016 -0.0015527C20.0896 2.26762 17.7651 10.445 18.0418 14.25L18.0483 14.2419Z"
               fill="#226CF5"
             />
